@@ -81,6 +81,22 @@
   .home-subscribe-form-input {
     width: 228px;
   }
+  .section-bg-right {
+    top: 44%;
+    width: 100%;
+    height: 50%;
+  }
+  .section-bg-left {
+    width: 100%;
+    height: 44%;
+  }
+  .get-quote-form {
+    overflow: hidden;
+    padding-bottom: 70px;
+  }
+  .home-about {
+    padding-right: 0;
+  }
   .single-post-author-info-name {
     margin: 15px 0 15px;
   }
@@ -140,6 +156,9 @@
     line-height: 22px;
     font-size: 17px;
   }
+  .single-service-air, .single-service-truck, .single-service-ship, .main-slider {
+    margin-bottom: 30px;
+  }
   .section-bg-left {
     display: none;
   }
@@ -149,6 +168,15 @@
   .transbo-review {
     margin-bottom: 100px;
   }
+  .home-about {
+    background: transparent;
+  }
+  .about-quote .section-head h2,
+  .get-quote {
+    color: initial;
+    padding: 0;
+  }
+  .pt-0 {padding-top: 0;}
   .home-big-image {
     display: none;
   }
@@ -247,6 +275,9 @@
   .bs-example-alert {
     padding: 0 15px;
   }
+  #home-blog {
+    overflow: hidden;
+  }
 }
 
 @media screen and (max-width: 652px) {
@@ -290,7 +321,7 @@
     top: 160px !important;
   }
   .home-about {
-    padding: 100px 15px;
+    padding: 50px 15px;
   }
   .get-quote {
     padding: 100px 15px;
